@@ -93,3 +93,30 @@ Use these curated design palettes, typography pairings, multi-day chapter struct
 - **Chapters**: Little Year & Sweeping the Dust, Reunion Dinner (Chuxi), New Year's Day & Hongbao, Lion Dance & Firecrackers, Lantern Festival (Yuanxiao).
 - **Interactive Ritual**: Release a *Glowing Sky Lantern* + *Gong Xi Fa Cai* Blessing Card Generator.
 
+
+---
+
+## 11. Bhai Phonta / Bhratri Dwitiya (Bengali Sibling Tribute – Gen Z Zine Edition)
+- **Welcoming Warm Palette**:
+  - Surface Ivory (`--ivory`): `#FFFBF2` & Chandan Cream (`--cream`): `#FDF3DF`
+  - Terracotta Vermilion (`--crimson`): `#B83B2A` & Rust Maroon (`--crimson-d`): `#8E281B`
+  - Marigold Saffron (`--saffron`): `#E07A2E` & Soft Peach (`--peach`): `#FFE5CC`
+  - Honey Gold (`--gold`): `#D99B26` & Bright Marigold Gold (`--gold-l`): `#F6C453`
+  - Nolen Gur Espresso (`--kajal`): `#3B231A` & Cinnamon Muted (`--muted`): `#6E4F41`
+  - Card Studio Surface (`.gen`): Warm Rosewood gradient (`linear-gradient(135deg, #6B2419 0%, #4A1810 100%)`)
+- **Asymmetric Font Stack**:
+  - `Syne` (700/800) for wide asymmetric display headers, section index pills (`01 // THE SACRED LORE`), and sticker tags.
+  - `Playfair Display` (italic 400/600) spliced mid-headline with wavy underlines and used for transliterations.
+  - `Caveat` (600/700) for tilted handwritten scribble notes (`← takes 10 secs!`, `✎ memorized by every bong kid ever`), Polaroid captions, and card sign-offs.
+  - `Tiro Bangla` for Bengali verses and titles.
+  - `Plus Jakarta Sans` for body copy and UI controls.
+- **Translucent Background Artwork (`body::before`)**:
+  - Off-center (`78% 22%`) low-opacity (`0.12`) SVG backdrop illustrating a traditional Bengali *Alpana* lotus mandala, *Baran Dala* brass thali, glowing *Mangal Pradip*, *Dhan-Durba* paddy stalks, *Shankha*, and *Chandan-Doi-Kajal Tilak*, layered over a `160×160` seamless repeating Alpana lattice tile.
+- **Asymmetric Zine Sections**:
+  1. **Split Hero + Multi-Layer Polaroid Collage**: Left-aligned mixed-font headline + right-side tilted Polaroid (`+2.6deg`) over a backing Bengali postcard (`-6.5deg`, `z-index: 1`) with top Washi tape, full Baran Dala SVG centerpiece, and top-level floating stickers (`🧿 Yama-Proof`, `🎁 Gift Tax Due` at `z-index: 4`).
+  2. **Diagonal Marquee Ribbon**: Tilted (`-1.1deg`) ticker mixing `শুভ ভাই ফোঁটা` with Gen Z sibling phrases (`✦ YAMA'S DOOR = BLOCKED 🛡️`, `✦ NO KALESH TODAY ✌️`).
+  3. **01 // The Sacred Chhara**: `1.2fr / 0.85fr` asymmetric split with taped Bengali verse card + rotated lore cards (*Wish for Amaratwa*, *Yamuna & Yama*).
+  4. **02 // Core Rituals**: Staggered 3-column grid (`.stagger-3`) covering *The Sacred Tilak*, *Dhan-Durba & Shankha*, and *Ashirwad & Upahar*.
+  5. **03 // Mishti & Bhoj Tier List**: Asymmetric 12-column Bento grid (`7 + 5` top row, `4 + 4 + 4` bottom row) with expandable tasting notes for *Nolen Gur Sandesh (🏆 GOAT Tier)*, *Rosogolla (👑 Main Character)*, *Pantua*, *Darbesh*, and *Luchi & Chholar Dal (💛 Elite Brunch)*.
+  6. **04 // Virtual Phonta Card Studio**: Vibe preset chips (`✨ Classic Blessing`, `🤝 Partner in Crime`, `🎁 Gift Tax Due`, `💛 100 Years`), animated Tilak stamp card, confetti burst, native `navigator.share`, and `1200×800` Canvas PNG export.
+  7. **05 // 1-Tap Copy Wishes**: Staggered WhatsApp/DM-ready sibling wish cards.
